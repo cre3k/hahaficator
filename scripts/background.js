@@ -32,7 +32,7 @@ chrome.action.onClicked.addListener(async (tab) => {
                         let replacement = char;
                         if (vowels.includes(char)) {
                             switch (char) {
-                                case 'a':
+                                case 'а':
                                     replacement = 'я';
                                     break;
                                 case 'у':
